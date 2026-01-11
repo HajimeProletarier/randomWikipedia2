@@ -5,13 +5,13 @@
 ## 概要
 
 既存の Java/Servlet ベースアプリケーションを、モダンな技術スタックでリプレイス。
-データベースレス・サーバーレス構成で、完全無料運用を実現。
+データベースレス・完全静的サイト構成で、完全無料運用を実現。
 
 ## 技術スタック
 
 - **フロントエンド**: React + TypeScript + TailwindCSS
-- **バックエンド**: Firebase Cloud Functions (Node.js + TypeScript)
-- **ホスティング**: Firebase Hosting + Cloud Functions
+- **ホスティング**: Firebase Hosting（静的サイトのみ）
+- **外部 API**: Wikipedia REST API（CORS 対応、直接呼び出し）
 - **状態管理**: Zustand
 - **永続化**: localStorage
 
