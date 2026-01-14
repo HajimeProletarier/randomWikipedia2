@@ -43,7 +43,7 @@ export function Article({ article }: ArticleProps) {
         {/* タイトル */}
         <div className="flex items-start justify-between gap-4 mb-4">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-            {article.displaytitle || article.title}
+            {article.title}
           </h2>
           <button
             onClick={toggleBookmark}
